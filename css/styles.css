@@ -1,0 +1,113 @@
+/*  
+COLOR PALLETES
+#F8EDE3     #181D31
+#DFD3C3     #678983
+#D0B8A8     #E6DDC4
+#85586F     #F0E9D2
+ */
+
+
+/* Global Styles */
+body {
+    background-color: #F8EDE3;
+    color: #85586F;
+    /*font-family: Arial, sans-serif;*/
+}
+  
+.container {
+    border-color: red;
+    border-style: dashed;
+    /*max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;*/
+}
+
+/* Horizontal Rule styles */
+.hr-style-one {
+    background-color: none;
+    border-style: dotted none none;
+    border-color: #85586F;
+    border-width: 5px;
+    width: 10%;
+}
+
+.hr-style-two {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #85586F, rgba(0, 0, 0, 0));
+}
+  
+/* Header styles */
+/*
+header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+    background-color: #DFD3C3;
+    border-color: red;
+    border-style: dashed;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav ul li {
+    display: inline;
+    padding: 0 1rem;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #85586F;
+    cursor: pointer;
+}
+
+.header-nav ul li a:hover {
+    border-color: red;
+    border-style: dashed;
+}*/
+
+ /* Navbar styles */
+ .navbar {
+    border-color: red;
+    border-style: dashed;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+ }
+
+ .navbar ul {
+    border-color: red;
+    border-style: dashed;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+ }
+
+ .navbar li {
+    display: inline-block;
+ }
+
+ .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+ }
+
+ .navbar a:hover {
+    background-color: #111111;
+ }
+
+ .list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+ }
